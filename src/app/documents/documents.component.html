@@ -1,0 +1,16 @@
+
+
+<div class="container">
+  <h1 class="headline">Documents Dashboard!</h1>
+  <div *ngFor="let doc of documents" class="card mb-3">
+    <img class="card-img-top" src="{{doc.image_url}}" alt="Card image cap" width="100%">
+    <div class="card-block">
+      <h4 class="card-title">{{doc.title}}</h4>
+      <p class="card-text">{{doc.description}}</p>
+      <div class="">
+        <a class="btn btn-primary btn-large" href="{{doc.file_url}}">Download File</a>
+      </div>
+      <p class="card-text"><small class="text-muted">Last updated {{doc.updated_at}}</small></p>
+    </div>
+  </div>
+</div>
