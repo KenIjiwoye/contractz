@@ -5,6 +5,8 @@ import { HttpModule } from '@angular/http';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { NgbDropdownModule } from '@ng-bootstrap/ng-bootstrap';
 
+import { DocumentService } from './documents/document.service';
+
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { DocumentsComponent } from './documents/documents.component';
@@ -30,7 +32,7 @@ import { ProposalShowComponent } from './proposal/proposal-show/proposal-show.co
     NgbModule.forRoot(),
     NgbDropdownModule.forRoot()
   ],
-  providers: [],
+  providers: [DocumentService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

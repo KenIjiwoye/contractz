@@ -25,3 +25,9 @@
 .dropdown-links a:hover {
 	color: #252830;
 }
+footer {
+	color: #b7b7b7;
+}
+footer .nav-styles p {
+	text-align: center;
+}
