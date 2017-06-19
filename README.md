@@ -1,14 +1,19 @@
-# DataApp
+# Contractz App
+
+Freelance resources app for client managment.
+Built with Ruby on rails and Angular 4+
+
+## Rails 5 Documents api
+https://github.com/KenIjiwoye/contractz-documents.git
+
+## Rails 5 Proposal api
+https://github.com/KenIjiwoye/contractz-proposals.git
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0.
 
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive/pipe/service/class/module`.
 
 ## Build
 
