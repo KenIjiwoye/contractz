@@ -8,8 +8,9 @@ import { ProposalShowComponent } from './proposal/proposal-show/proposal-show.co
 
 const routes: Routes = [
   {
-    path: 'home',
-    component: HomepageComponent
+    path: '',
+    component: HomepageComponent,
+    pathMatch: 'full'
   },
   {
     path: 'documents',
