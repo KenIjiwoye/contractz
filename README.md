@@ -3,7 +3,9 @@
 Freelance resources app for client managment.
 Built with Ruby on rails and Angular 4+
 
-Live demo: http://artystikweb.com/contractz 
+Modeled to work as a microservice app.
+
+Live demo: https://contractz-4b845.firebaseapp.com/
 
 ## Rails 5 Documents api
 https://github.com/KenIjiwoye/contractz-documents.git
